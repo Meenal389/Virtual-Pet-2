@@ -15,8 +15,8 @@ doghappy=loadImage("images/dogImg1.png")
 function setup() {
 	createCanvas(500, 500);
   database=firebase.database();
-  dog=createSprite(300,350,50,50)
-  dog.addImage(dogimg,'dog')
+  dog=createSprite(300,350,50,50);
+  dog.addImage(dogimg,'dog');
  //doghappy.addImage(doghappy,"dog")
   dog.scale=0.3;
   foodObj = new Food();
